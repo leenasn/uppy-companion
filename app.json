@@ -1,0 +1,16 @@
+{
+    "name": "Companion",
+    "description": "Standalone uppy companion",
+    "keywords": ["uppy", "companion", "files", "uploader"],
+    "repository": "https://github.com/Ju99ernaut/uppy-companion",
+    "env": {
+        "COMPANION_SECRET": {
+            "description": "any long set of random characters for the server session",
+            "generator": "secret"
+        },
+        "COMPANION_DATADIR": {
+            "description": "correspondes to the filePath option",
+            "value": "/"
+        }
+    }
+}

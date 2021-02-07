@@ -10,14 +10,14 @@
         },
         "COMPANION_DATADIR": {
             "description": "correspondes to the filePath option",
-            "value": "/"
+            "value": "/tmp"
         },
         "COMPANION_CLIENT_ORIGINS": {
             "description": "whitelist domains that can use companion(comma separated)",
             "value": ""
         },
         "COMPANION_DOMAIN": {
-            "description": "translates to the server.host option, which domain for your app, eg https://appname.heroku.com",
+            "description": "translates to the server.host option, which domain for your app, eg appname.heroku.com",
             "value": ""
         }
     }

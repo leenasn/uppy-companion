@@ -10,7 +10,7 @@
         },
         "COMPANION_DATADIR": {
             "description": "correspondes to the filePath option",
-            "value": "/files"
+            "value": "/"
         },
         "COMPANION_CLIENT_ORIGINS": {
             "description": "whitelist domains that can use companion(comma separated)",

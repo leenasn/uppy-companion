@@ -16,8 +16,12 @@
             "description": "whitelist domains that can use companion(comma separated)",
             "value": ""
         },
+        "COMPANION_PROTOCOL": {
+            "description": "translates to the server.protocol option, eg http|https",
+            "value": "https"
+        },
         "COMPANION_DOMAIN": {
-            "description": "translates to the server.host option, which domain for your app, eg appname.heroku.com",
+            "description": "translates to the server.host option, which is the domain for your server, eg appname.heroku.com",
             "value": ""
         }
     }
